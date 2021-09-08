@@ -1,4 +1,4 @@
-# HAO-Hearing-Aid-Ontology
+# HAO: Hearing Aid Ontology
 
 The first ontology on Hearing Aids.  
 It is the public repository of the ontology. Here there are:
