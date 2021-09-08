@@ -1,0 +1,2142 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ausilia/2/hao"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ausilia/2/hao">
+    <Prefix name="" IRI="http://www.semanticweb.org/ausilia/2/hao"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/hio/releases/2019-10-31/hio.owl</Import>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air_Conduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analogical_Hearing_Aid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BAHA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bone_Conduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CROS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Configurations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Hearing_Aid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eyeglasses_Aids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_Connectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_Designed_For"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_For_Adult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_For_Child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_Functionalities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_Rechargeability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Aid_Telecoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Loss_Mild-Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Loss_Moderate-Severe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Loss_Severe-Profound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Loss_Severity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ITE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Types"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canBeTreatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConfiguration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDedicated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConfigurationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDesignedFor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConnectivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTelecoil"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWebSite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isDigital"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRechargeable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Air_Conduction_Cros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BiCROS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Headband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ITC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No-RIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No-RITE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RITE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Softband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surgical_Implant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Air_Conduction"/>
+        <ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#Air_Conduction_Cros"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#BiCROS"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#CIC"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#IIC"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#ITC"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#No-RIC"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#RIC"/>
+            </ObjectHasValue>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Analogical_Hearing_Aid"/>
+        <DataHasValue>
+            <DataProperty IRI="#isDigital"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bone_Conduction"/>
+        <ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#Softband"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasConfiguration"/>
+                <NamedIndividual IRI="#Surgical_Implant"/>
+            </ObjectHasValue>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Digital_Hearing_Aid"/>
+        <DataHasValue>
+            <DataProperty IRI="#isDigital"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Aid_Connectivity"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasConnectivity"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Aid_For_Adult"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#isDesignedFor"/>
+            <NamedIndividual IRI="#Adult"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Aid_For_Child"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#isDesignedFor"/>
+            <NamedIndividual IRI="#Child"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Aid_Rechargeability"/>
+        <DataHasValue>
+            <DataProperty IRI="#isRechargeable"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Aid_Telecoil"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasTelecoil"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Loss_Mild-Moderate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#forHearingLossSeverity"/>
+            <NamedIndividual IRI="#Mild-Moderate"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Loss_Moderate-Severe"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#forHearingLossSeverity"/>
+            <NamedIndividual IRI="#Moderate-Severe"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hearing_Loss_Severe-Profound"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#forHearingLossSeverity"/>
+            <NamedIndividual IRI="#Severe-Profound"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Air_Conduction"/>
+        <Class IRI="#Conduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analogical_Hearing_Aid"/>
+        <Class IRI="#Hearing_Aid_Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BAHA"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTE"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bone_Conduction"/>
+        <Class IRI="#Conduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CROS"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conduction"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Configurations"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Hearing_Aid"/>
+        <Class IRI="#Hearing_Aid_Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eyeglasses_Aids"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_Connectivity"/>
+        <Class IRI="#Hearing_Aid_Functionalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_Designed_For"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_For_Adult"/>
+        <Class IRI="#Hearing_Aid_Designed_For"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_For_Child"/>
+        <Class IRI="#Hearing_Aid_Designed_For"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_Functionalities"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_Rechargeability"/>
+        <Class IRI="#Hearing_Aid_Functionalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_Technology"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Aid_Telecoil"/>
+        <Class IRI="#Hearing_Aid_Functionalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Loss_Mild-Moderate"/>
+        <Class IRI="#Hearing_Loss_Severity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Loss_Moderate-Severe"/>
+        <Class IRI="#Hearing_Loss_Severity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Loss_Severe-Profound"/>
+        <Class IRI="#Hearing_Loss_Severity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Loss_Severity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ITE"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Types"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HIO_0000111"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Air_Conduction"/>
+        <Class IRI="#Bone_Conduction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Analogical_Hearing_Aid"/>
+        <Class IRI="#Digital_Hearing_Aid"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#Air_Conduction_Cros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eyeglasses_Aids"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eyeglasses_Aids"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#BiCROS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#CIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BAHA"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BAHA"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#IIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#ITC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#No-RIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BTE"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CROS"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CROS"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CROS"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#RIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#Softband"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Configurations"/>
+        <NamedIndividual IRI="#Surgical_Implant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ITE"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ITE"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ITE"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Headband"/>
+        <NamedIndividual IRI="#Softband"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#No-RIC"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#RIC"/>
+        <NamedIndividual IRI="#RITE"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <NamedIndividual IRI="#Surgical_Implant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <NamedIndividual IRI="#Softband"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <NamedIndividual IRI="#RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <NamedIndividual IRI="#Severe-Profound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <NamedIndividual IRI="#No-RITE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <NamedIndividual IRI="#BiCROS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <NamedIndividual IRI="#BiCROS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <NamedIndividual IRI="#Air_Conduction_Cros"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <NamedIndividual IRI="#Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <NamedIndividual IRI="#CIC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <NamedIndividual IRI="#IIC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <NamedIndividual IRI="#Mild-Moderate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <NamedIndividual IRI="#Moderate-Severe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <NamedIndividual IRI="#ITC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <Literal>http://www.autel-italia.it/betaflex.php</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Autel_Beta_Flex_Extend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <Literal>https://www.bhm-tech.at/it/prodotti/contact-star-evo1/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#BHM_contact_star_evo1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Bone_Conduction_Spectacles"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <Literal>https://www.cochlear.com/us/en/professionals/products-and-candidacy/baha/baha-6-max-processor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Cochlear_Baha_6_Max"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <Literal>https://www.cochlear.com/us/en/professionals/products-and-candidacy/baha-start</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Cochlear_Baha_Start"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=255443</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_More_miniRite_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161233</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161227</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161231</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161229</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_Play_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161223</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161211</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161220</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=161217</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Opn_S_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=223011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=223010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Ruby_BTE_Plus_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=223004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=223009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_R"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=223008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Ruby_miniRITE_T"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=202513</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=202514</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Xceed_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=202532</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Super_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <Literal>https://www.oticon.it/professionals/products/hearing-aids/product-details?productId=202533</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Oticon_Xceed_Play_BTE_Ultra_Power"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <Literal>https://www.phonak.com/us/en/hearing-aids/phonak-cros-II.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_BTE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <Literal>https://www.phonak.com/us/en/hearing-aids/phonak-cros-II.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Phonak_CROS_II_In_the_Ear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <Literal>https://www.phonak.com/it/it/apparecchi-acustici/accessori/roger-focus.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Phonak_Roger_Focus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <Literal>https://www.widex.com/en/hearing-aids/evoke/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <Literal>https://www.widex.com/en/hearing-aids/evoke/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Widex_Evoke_CIC_Micro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConnectivity"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTelecoil"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWebSite"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <Literal>https://www.widex.com/en/hearing-aids/evoke/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDigital"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRechargeable"/>
+        <NamedIndividual IRI="#Widex_Evoke_Custom_ITE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#canBeTreatedBy"/>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <ObjectProperty IRI="#isConfigurationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDedicated"/>
+        <ObjectProperty IRI="#isDesignedFor"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canBeTreatedBy"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Mild-Moderate"/>
+            <NamedIndividual IRI="#Moderate-Severe"/>
+            <NamedIndividual IRI="#Severe-Profound"/>
+        </ObjectOneOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <Class IRI="#Types"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <Class IRI="#Types"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDedicated"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Adult"/>
+            <NamedIndividual IRI="#Child"/>
+        </ObjectOneOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConfigurationOf"/>
+        <Class IRI="#Configurations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <Class IRI="#Types"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canBeTreatedBy"/>
+        <Class IRI="#Types"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#forHearingLossSeverity"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Mild-Moderate"/>
+            <NamedIndividual IRI="#Moderate-Severe"/>
+            <NamedIndividual IRI="#Severe-Profound"/>
+        </ObjectOneOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConfiguration"/>
+        <Class IRI="#Configurations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDedicated"/>
+        <Class IRI="#Types"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConfigurationOf"/>
+        <Class IRI="#Types"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Adult"/>
+            <NamedIndividual IRI="#Child"/>
+        </ObjectOneOf>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasConnectivity"/>
+        <Class IRI="#Types"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTelecoil"/>
+        <Class IRI="#Types"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWebSite"/>
+        <Class IRI="#Configurations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isDigital"/>
+        <Class IRI="#Types"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRechargeable"/>
+        <Class IRI="#Types"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConnectivity"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTelecoil"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWebSite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isDigital"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRechargeable"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/HIO_0000111</IRI>
+        <Literal xml:lang="en">A hearing aid is a medical device designed to improve hearing by making sound audible to a person with hearing loss.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Air_Conduction</IRI>
+        <Literal xml:lang="en">The outer ear directs sound waves from the external environment to the tympanic membrane that transmits them to the inner ear by the ossicular chain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Analogical_Hearing_Aid</IRI>
+        <Literal xml:lang="en">The internal circuit is analogical. Only old hearing aids are analogical.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BAHA</IRI>
+        <Literal xml:lang="en">A bone anchored hearing aid (BAHA) is a surgically implanted auditory prosthetic based on bone conduction. It can not be surgically implanted temporarily.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BTE</IRI>
+        <Literal xml:lang="en">Behind the ear (BTE) hearing aids are one of two major classes of hearing aids. BTE hearing aids consist of a case which hangs behind the pinna.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bone_Conduction</IRI>
+        <Literal xml:lang="en">Sound can reach the inner ear by conduction through the bones of the skull because it produces vibrations of the skull that are passed on the inner ear.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CROS</IRI>
+        <Literal xml:lang="en">A CROS hearing aid is a hearing aid that transmits auditory information from one side of the head to the other side of the head. Candidates include people who have poor word understanding on one side, no hearing on one side, or who are not benefiting from a hearing aid on one side.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conduction</IRI>
+        <Literal xml:lang="en">Transmission of sound waves can be by air conduction or bone conduction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Configurations</IRI>
+        <Literal xml:lang="en">Different types of hearing aid have several configurations i.e. placing of receiver or &quot;visibility&quot; in the ear canal or use of headband or surgical implant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Digital_Hearing_Aid</IRI>
+        <Literal xml:lang="en">The internal circuit is digital. Today all hearing aids are digital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eyeglasses_Aids</IRI>
+        <Literal xml:lang="en">Sounds are transmitted via a receiver attached from the arm of the spectacles which are fitted firmly behind the boney portion of the skull at the back of the ear (mastoid process) by means of pressure applied on the arm of the spectacles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hearing_Aid_Connectivity</IRI>
+        <Literal xml:lang="en">Recent haring aids support connectivity because they can be fitted wireless and can receive sound directly from TV, phones, and Bluetooth microphone/speaker.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hearing_Aid_Designed_For</IRI>
+        <Literal xml:lang="en">Hearing aid design can be specialized for adults or children.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hearing_Aid_Functionalities</IRI>
+        <Literal xml:lang="en">Mean hearing aid functionalities are telecoil, connectivity and rechargeability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hearing_Aid_Rechargeability</IRI>
+        <Literal xml:lang="en">The power alimentation can be zinc-air button battery or lithium rechargeable battery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hearing_Aid_Telecoil</IRI>
+        <Literal xml:lang="en">The signal inside the phone&apos;s speaker is picked up by the hearing aid&apos;s telecoil i.e. a special loop of wire inside the hearing aid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hearing_Loss_Severity</IRI>
+        <Literal xml:lang="en">Treatment with hearing aid depends on how serious the hearing loss is.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ITE</IRI>
+        <Literal xml:lang="en">In the ear (ITE) hearing aids are one of two major classes of hearing aids – Behind the ear (BTE) and In the ear (ITE). ITE devices fit in the outer ear bowl (called the concha) or inside the ear canal completely.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Types</IRI>
+        <Literal xml:lang="en">There are many types of hearing aids which vary in size, placing and technology.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
